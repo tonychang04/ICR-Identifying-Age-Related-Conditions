@@ -18,6 +18,7 @@ You could help advance the growing field of bioinformatics and explore new metho
 ## Evaluation metric: 
 ![](evaluationMetric.png)
 
+TLDR: the lower the score, the better
 
 ## Experiements
 The following performance are done on stratified train test(based on target) split with 20% test size.
@@ -37,9 +38,12 @@ Logistic regression = 0.79
 SVM = 0.80
 </br>
 XGBoost = 0.59 </br>
+LightGBM = 0.65</br>
 
 
+Realized that without PCA XGB boost actually does pretty well. Going to focus on correct variable selection methods/ merging different models. 
 
+Ensemble XGBoost with LightGBM gives 0.57 score
 
 
 
