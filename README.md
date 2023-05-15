@@ -15,3 +15,14 @@ In this competition, you’ll work with measurements of health characteristic da
 
 You could help advance the growing field of bioinformatics and explore new methods to solve complex problems with diverse data.
 
+## Evaluation metric: 
+![](evaluationMetric.png)
+
+Using PCA:
+Logistic regression = 0.884
+SVM = 0.915
+
+Without PCA
+
+
+
