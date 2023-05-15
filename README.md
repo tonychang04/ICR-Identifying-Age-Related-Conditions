@@ -28,14 +28,14 @@ In the description, it's being mentioned that XGBoost are previously used to pre
 Using PCA: </br>
 Logistic regression = 0.91 </br>
 SVM = 0.86 </br>
-XGBoost = 0.59 </br>
+XGBoost = 1.3658423341396895 </br>
  </br> </br>
 
 Without PCA:
 Logistic regression = 0.79
-<\br>
+</br>
 SVM = 0.80
-<\br>
+</br>
 XGBoost = 0.59 </br>
 
 
