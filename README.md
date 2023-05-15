@@ -18,11 +18,29 @@ You could help advance the growing field of bioinformatics and explore new metho
 ## Evaluation metric: 
 ![](evaluationMetric.png)
 
-Using PCA:
-Logistic regression = 0.884
-SVM = 0.915
 
-Without PCA
+## Experiements
+The following performance are done on stratified train test(based on target) split with 20% test size.
+In the description, it's being mentioned that XGBoost are previously used to predict medical conditions, so I will use that model as a control.
+
+
+
+Using PCA: </br>
+Logistic regression = 0.91 </br>
+SVM = 0.86 </br>
+XGBoost = 0.59 </br>
+ </br> </br>
+
+Without PCA:
+Logistic regression = 0.79
+<\br>
+SVM = 0.80
+<\br>
+XGBoost = 0.59 </br>
+
+
+
+
 
 
 
