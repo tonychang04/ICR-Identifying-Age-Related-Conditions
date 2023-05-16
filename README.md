@@ -42,17 +42,25 @@ LightGBM = 0.65</br>
 
 
 Realized that without PCA XGB boost actually does pretty well. Going to focus on correct variable selection methods/ merging different models. 
-</br>
+</br></br>
+
 Ensemble XGBoost with LightGBM gives 0.57 score
-</br>
+</br></br>
+
 But wait, we never optimized the parameters of these individual models. I'll optimize the parameters of models using optuna first.
-</br>
+</br></br>
+
 XGBoost = 0.45975436175942636 {'learning_rate': 0.01596255039414685, 'max_depth': 7, 'n_estimators': 100}
 </br>
 LightGBM = 0.48372759400721 {'learning_rate': 0.05679604223386096, 'max_depth': 4, 'n_estimators': 100}
 </br>
 Ensemble them gives = 0.44558 which still seems pretty high. Will focus more on preprecossing. 
-</br>
+</br></br>
+
+Standard scaler ensembles becomes = 0.43
+</hr> 
+Use KNN imputer instead of mean imputer +  standard scaler  becomes = 0.39
+
 
 
 
